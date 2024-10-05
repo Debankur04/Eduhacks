@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    .navigation{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    button{
+        height: 30px;
+        margin-top: 12px;
+    }
+}
+section{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    .assignment,.project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 5rem;
+        height: 20rem;
+        width: 20rem;
+    }
+}
