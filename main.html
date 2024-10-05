@@ -7,17 +7,29 @@
     <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
+    <nav>
+        <h1>Chiron</h1>
+        <div class="navigation">
+            <p>hello</p>
+            <p>hello</p>
+            <p>hello</p>
+            <p>hello</p>
+        </div>
+        <button>Log Out</button>
+    </nav>
     <div id="container">
-        <input type="text" id="youtube-link" placeholder="Enter YouTube link">
-        <button onclick="loadVideo()">Load Video</button>
+        <div class="url_place">
+            <input type="text" id="youtube-link" placeholder="Enter YouTube link">
+            <button onclick="loadVideo()">Load Video</button>
+        </div>
         <div class="board">
             <div id="video-container"></div>
             <div id="transcript-container"></div>
         </div>
     </div>
     <div id="chat-container">
-      <input type="text" id="chat-input" placeholder="Ask something...">
       <div id="chat-output"></div>
+      <input type="text" id="chat-input" placeholder="Ask something...">
     </div>
   
     <script src="JS/main-script.js"></script>
