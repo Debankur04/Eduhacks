@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: green;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    z-index: 1000000;
+    width: 100vw;
+    padding: 0;
+    top: 0;
+    left: 0;
+    .navigation{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    button{
+        height: 30px;
+        margin-top: 12px;
+    }
+    
+}
