@@ -159,3 +159,7 @@ background: linear-gradient(56deg, rgba(0,26,255,1) 0%, rgba(205,0,255,1) 100%);
 h1{
     font-size: 3rem;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
