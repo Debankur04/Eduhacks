@@ -1,5 +1,5 @@
 
-# Project Title
+# Chiron
 
 Student often get difficulties with classes, quizes and project submissions. They have to go on a array of different websites. So we boxed everything into a single appication where you can have video call with your teacher for classes, they can quiz you and you can submit projects as well all at the same place. 
 Our Product Chiron does the exact same thing. It has a video call feature, quiz feature and a project submissions place.
